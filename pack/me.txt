@@ -1,0 +1,4 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+public class lire{
+public static void main(String[] arg)
