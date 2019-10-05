@@ -33,7 +33,7 @@ public class Interface extends JFrame {
 	private JTextField getJTextField() {
 		if (jTextField == null) {
 			jTextField = new JTextField();
-			jTextField.setBounds(new Rectangle(91, 43, 62, 20));
+			jTextField.setBounds(new Rectangle(95, 44, 67, 29));
 		}
 		return jTextField;
 	}
@@ -46,7 +46,7 @@ public class Interface extends JFrame {
 	private JTextField getJTextField1() {
 		if (jTextField1 == null) {
 			jTextField1 = new JTextField();
-			jTextField1.setBounds(new Rectangle(180, 43, 62, 20));
+			jTextField1.setBounds(new Rectangle(185, 45, 67, 28));
 		}
 		return jTextField1;
 	}
@@ -59,7 +59,7 @@ public class Interface extends JFrame {
 	private JButton getJButton() {
 		if (jButton == null) {
 			jButton = new JButton();
-			jButton.setBounds(new Rectangle(79, 109, 55, 20));
+			jButton.setBounds(new Rectangle(99, 99, 50, 29));
 			jButton.setText(" ok");
 			jButton.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -84,7 +84,7 @@ return jButton;
 	private JButton getJButton1() {
 		if (jButton1 == null) {
 			jButton1 = new JButton();
-			jButton1.setBounds(new Rectangle(151, 109, 84, 20));
+			jButton1.setBounds(new Rectangle(199, 100, 88, 40));
 			jButton1.setText("cancel");
 			jButton1.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -124,10 +124,10 @@ return jButton;
 	 */
 	private void initialize() {
 		
-		this.setSize(330, 188);
+		this.setSize(366, 150);
 		this.setContentPane(getJContentPane());
 		this.setTitle("enter your request");
-		this.setLocation(400, 220);
+		this.setLocation(455, 233);
 	}
 
 	/**
@@ -138,10 +138,10 @@ return jButton;
 	private JPanel getJContentPane() {
 		if (jContentPane == null) {
 			jLabel1 = new JLabel();
-			jLabel1.setBounds(new Rectangle(155, 43, 19, 16));
+			jLabel1.setBounds(new Rectangle(155, 45, 15, 15));
 			jLabel1.setText(" to");
 			jLabel = new JLabel();
-			jLabel.setBounds(new Rectangle(30, 44, 62, 16));
+			jLabel.setBounds(new Rectangle(35, 45, 65, 15));
 			jLabel.setText("  request ");
 			jContentPane = new JPanel();
 			jContentPane.setLayout(null);
